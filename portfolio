@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        #about {
+            background: #f4f4f4;
+        }
+
+        #projects {
+            background: #eaeaea;
+        }
+
+        #contact {
+            background: #f4f4f4;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hello! I am Kolli Rakesh , a passionate  Web Developer. I specialize in HTML,CSS,JavaScript. Welcome to my portfolio!</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <p>Here are some of the projects I have worked on:</p>
+        <ul>
+            <li>MY Portfolio Website: Developed a personal portfolio website to showcase technical expertise, projects, and achievements. Features interactive case studies on Kubernetes security, cloud infrastructure, and application development. Built with [technologies used, e.g., HTML, CSS, JavaScript, React]. </li>
+         
+           
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+        <p>Email:rakeshkolli5555@gmail.com</p>
+        <p>Phone:6281918528</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kolli Rakesh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
